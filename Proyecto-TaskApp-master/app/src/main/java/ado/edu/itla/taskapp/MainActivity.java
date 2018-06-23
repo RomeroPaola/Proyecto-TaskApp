@@ -9,6 +9,8 @@ import android.widget.Button;
 
 import ado.edu.itla.taskapp.entidad.Categoria;
 import ado.edu.itla.taskapp.vista.CategoriaActivity;
+import ado.edu.itla.taskapp.vista.CategoriaListaActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String LOG_TAG = MainActivity.class.getName();
@@ -24,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         {
             @Override
             public void onClick(View v) {
-                Intent intent =  new Intent(MainActivity.this, CategoriaActivity.class);
+                Intent intent =  new Intent(MainActivity.this, CategoriaListaActivity.class);
                 startActivity(intent);
 
 
